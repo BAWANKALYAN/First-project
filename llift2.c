@@ -117,7 +117,7 @@ void main(void)
         {
             RC1=1;RC0=0;
         }
-        if(floor==floatswitch)
+        if(floor==sensor)
         {
             RC0=RC1=0;
         }
