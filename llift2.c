@@ -109,7 +109,7 @@ void main(void)
               lcd(0,0x80);
              string(1,"third floor");
         }
-        if(floor>sensor)
+        if(floor>button)
         {
             RC1=0;RC0=1;
         }
