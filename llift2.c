@@ -101,7 +101,7 @@ void main(void)
         {
             sensor=2;
               lcd(0,0x80);
-             string(1,"second floor");
+             string(1,"second and floor");
         }
         if(RB3==0)
         {
