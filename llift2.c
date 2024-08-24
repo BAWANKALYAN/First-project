@@ -107,7 +107,7 @@ void main(void)
         {
             sensor=3;
               lcd(0,0x80);
-             string(1,"third floor");
+             string(1,"third and floor");
         }
         if(floor>sensor)
         {
