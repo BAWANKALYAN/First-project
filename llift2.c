@@ -60,9 +60,9 @@ void main(void)
     TRISA=0X0F; 
     TRISB=0X0F;
     TRISC=0X00;
-    TRISD=0X00;
-    TRISE=0X00;
-    ANSEL=0x00;
+    TRISD=0X01;
+    TRISE=0X01;
+    ANSEL=0x01;
     ANSELH=0X00;
     lcd(0,0x38);
     lcd(0,0x0E);
